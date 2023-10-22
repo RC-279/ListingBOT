@@ -88,7 +88,7 @@ body{
 
 .herobackground {
     position: relative;
-    background: url('../ListingBOT/assets/wideherosectionbg.png') center/cover no-repeat;
+    /* background: url('../ListingBOT/assets/wideherosectionbg.png') center/cover no-repeat; */
     height: 800px; /* Adjust the height as needed */
 }
 
@@ -220,7 +220,7 @@ body{
 
     .herobackground {
         position: relative;
-        background: url('../ListingBOT/assets/wideherosectionbg.png') center/cover no-repeat;
+        /* background: url('../ListingBOT/assets/wideherosectionbg.png') center/cover no-repeat; */
         height: 600px; /* Adjust the height as needed */
         transform: translateX(850);
         left: 100px;
@@ -260,11 +260,11 @@ body{
 @media (max-width: 995px) {
 
     .hero-section {
-        background: url('../ListingBOT/assets/wideherosectionbg.png') center/cover no-repeat;
+        /* background: url('assets/wideherosectionbg.png') center/cover no-repeat; */
         height: 800px; /* Adjust the height as needed */
         /* color: #fff; */
         position: relative;
-        top: -270px;
+        top: -290px;
         left: 0px;
     
     }
@@ -275,7 +275,7 @@ body{
 
     .herobackground {
         position: relative;
-        background: url('../ListingBOT/assets/wideherosectionbg.png') center/cover no-repeat;
+        /* /* background: url('../ListingBOT/assets/wideherosectionbg.png') center/cover no-repeat; */ */
         height: 400px; /* Adjust the height as needed */
         transform: translateX(990);
         left: 100px;
@@ -343,7 +343,7 @@ body{
 
     .herobackground {
         position: relative;
-        background: url('../ListingBOT/assets/wideherosectionbg.png') center/cover no-repeat;
+        /* background: url('../ListingBOT/assets/wideherosectionbg.png') center/cover no-repeat; */
         height: 400px; /* Adjust the height as needed */
         transform: translateX(950);
         left: 100px;
@@ -364,7 +364,7 @@ body{
 
     .herobackground {
         position: relative;
-        background: url('../ListingBOT/assets/wideherosectionbg.png') center/cover no-repeat;
+        /* background: url('../ListingBOT/assets/wideherosectionbg.png') center/cover no-repeat; */
         height: 400px; /* Adjust the height as needed */
         transform: translateX(950);
         left: 100px;
@@ -413,7 +413,7 @@ body{
 
     .herobackground {
         position: relative;
-        background: url('../ListingBOT/assets/wideherosectionbg.png') center/cover no-repeat;
+        /* background: url('../ListingBOT/assets/wideherosectionbg.png') center/cover no-repeat; */
         height: 400px; /* Adjust the height as needed */
         transform: translateX(950);
         left: 100px;
@@ -519,7 +519,7 @@ body{
         padding: 10px;
         border-radius: 20px;
         border-color: white;
-        margin-top: 10px;
+        margin-top: -150px;
     }
   }
 

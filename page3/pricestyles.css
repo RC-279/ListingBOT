@@ -1,9 +1,11 @@
+
 /* Style for the tabs */
-* {
+/* * {
     transition: 500ms;
     scroll-behavior: smooth;
     overflow-x: hidden;
-}
+
+} */
 
 body {
     padding: 0;
@@ -502,7 +504,6 @@ body {
 }
 
 .footer-dark h3 {
-    margin-top: 0;
     margin-bottom: 12px;
     font-weight: bold;
     font-size: 16px;
@@ -510,7 +511,7 @@ body {
 }
 
 .footer-dark h2 {
-    margin-top: 0;
+    
     margin-bottom: 12px;
     margin-right: 38%;
     font-weight: bold;

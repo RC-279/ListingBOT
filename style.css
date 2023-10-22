@@ -2091,123 +2091,159 @@ body{
 
 
 .footer-dark {
-    padding:50px 0;
-    color:#f0f9ff;
-    background-color:#000045;
-  }
-  
-  .footer-dark h3 {
-    margin-top:0;
-    margin-bottom:12px;
-    font-weight:bold;
-    font-size:16px;
-    text-transform: uppercase;
-    text-align: center;
-  }
+    padding: 50px 0;
+    color: #f0f9ff;
+    background-color: #000045;
+}
 
-  .footer-dark h2 {
-    margin-top:0;
-    margin-bottom:12px;
+.footer-dark h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.footer-dark h2 {
+    margin-top: 0;
+    margin-bottom: 12px;
     margin-right: 38%;
-    font-weight:bold;
-    font-size:16px;
+    font-weight: bold;
+    font-size: 16px;
     text-transform: uppercase;
-  }
+}
 
-  .footer-dark .flogo{
+.footer-dark .flogo {
     width: 250px;
     margin-bottom: 5%;
-  }
-  
-  .footer-dark ul {
-    padding:0;
-    list-style:none;
-    line-height:1.6;
-    font-size:14px;
-    margin-bottom:0;
-  }
-  
-  .footer-dark ul a {
-    color:inherit;
-    text-decoration:none;
-    opacity:0.6;
-  }
-  
-  .footer-dark ul a:hover {
-    opacity:0.8;
-  }
-  
-  @media (max-width:767px) {
+}
+
+.footer-dark ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.footer-dark ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.footer-dark ul a:hover {
+    opacity: 0.8;
+}
+
+@media (max-width:1000px) {
     .footer-dark .item:not(.social) {
-      text-align:center;
-      padding-bottom:20px;
+        text-align: center;
+        padding-bottom: 20px;
     }
-  }
-  
-  .footer-dark .item.text {
-    margin-bottom:36px;
-  }
-  
-  @media (max-width:767px) {
-    .footer-dark .item.text {
-      margin-bottom:0;
+
+    .footer-dark .flogo {
+        width: 210px;
     }
-  }
-  
-  .footer-dark .item.text p {
-    opacity:0.6;
+
+
+    .footer-dark h2 {
+        margin-top: 0;
+        margin-bottom: 12px;
+        margin-right: 38%;
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+
+    .footer-dark .copyright {
+        text-align: center;
+        padding-top: 24px;
+        opacity: 0.3;
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+}
+
+.footer-dark .item.text {
+    margin-bottom: 36px;
+}
+
+.footer-dark .item.text p {
+    opacity: 0.6;
     font-size: 12px;
-    margin-bottom:0;
-  }
-  
-  .footer-dark .item.social {
-    text-align:left;
-    
-  }
-  
-  @media (max-width:991px) {
+    margin-bottom: 0;
+}
+
+.footer-dark .item.social {
+    text-align: left;
+
+}
+
+@media (max-width:991px) {
     .footer-dark .item.social {
-      text-align:center;
-      margin-top:20px;
+        text-align: center;
+        margin-top: 0px;
     }
-  }
 
-  
-  
-  .footer-dark .item.social > a {
-    font-size:20px;
-    width:36px;
-    height:36px;
-    line-height:36px;
-    display:inline-block;
-    text-align:center;
-    border-radius:50%;
-    box-shadow:0 0 0 1.5px #fff;
-    margin:0 8px;
-    color:#fff;
+    .footer-dark h2 {
+        margin-right: 0%;
+        font-weight: bold;
+        font-size: 15.8px;
+
+        text-transform: uppercase;
+    }
+
+    .footer-dark .copyright {
+        text-align: center;
+        padding-top: 24px;
+        opacity: 0.3;
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+
+    .logoshifter {
+        margin-bottom: 24px;
+        margin-top: -20px;
+    }
+}
+
+
+
+.footer-dark .item.social>a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1.5px #fff;
+    margin: 0 8px;
+    color: #fff;
     margin-top: 2%;
-  }
-  
-  .footer-dark .item.social > a:hover {
-    opacity:0.9;
-  }
-  
-  
+}
 
-  .footer-dark .copyright {
-    text-align:left;
-    padding-top:24px;
-    opacity:0.3;
-    font-size:13px;
-    margin-bottom:0;
-  }
+.footer-dark .item.social>a:hover {
+    opacity: 0.9;
+}
 
-  .footer-dark .terms {
-    text-align:left;
-    padding-top:24px;
-    opacity:0.3;
-    font-size:13px;
-    margin-bottom:0;
-  }
+
+
+.footer-dark .copyright {
+    text-align: left;
+    padding-top: 24px;
+    opacity: 0.3;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.footer-dark .terms {
+    text-align: left;
+    padding-top: 24px;
+    opacity: 0.3;
+    font-size: 13px;
+    margin-bottom: 0;
+}
   
   

@@ -34,12 +34,12 @@ body{
 
 .headingbox{
     position: relative;
-    top: 50px;
+    top: 150px;
     left: 0px;
 }
 
 .hb{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .pricing-heading {
@@ -322,7 +322,9 @@ body{
 
 
 
-
+.navbar-section{
+    z-index: 1;
+}
 
 /* Style for the tabs */
 /* * {
@@ -763,7 +765,7 @@ body {
 }
 
 .custom-navbar {
-    margin-top: 10px;
+    /* margin-top: 10px; */
     padding: 15px;
 }
 

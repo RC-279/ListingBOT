@@ -8,12 +8,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@800&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@300;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <title>Hero Section</title>
     <link rel="stylesheet" href="pricestyles.css">
+    <style>
+        .pricing-section {
+            background: url('../assets/Pheadingtop.png') center/cover no-repeat;
+            height: 880px; /* Adjust the height as needed */
+            /* color: #fff; */
+        }
+        .pricing-content {
+            text-align: center;
+            padding: 150px 0;
+        }
+    </style>
 </head>
 
 <body>
@@ -21,7 +33,7 @@
 
 
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white custom-navbar mx-auto">
+        <nav class="navbar navbar-expand-lg navbar-light custom-navbar mx-auto">
           <a class="navbar-brand" href="#">
             <img src="../assets/logo.png" width="210px" height="48" alt="ListingBot Logo">
           </a>
@@ -53,13 +65,31 @@
       </div>
 
 
+      <div class="pricing-section">
+        <div class="container">
+            <div class="row">
+                <div class="col headingbox">
+                    <!-- <h1>TEXT</h1> -->
+                    <div class="hb">
+                        <h1 class="pricing-heading">Everything you need for<br><span class="specialText">best</span> in class <span class="specialText">service</span></h1>
+                        <p class="pricing-subheading">We offer flexible subscription packages for eBay and<br>Etsy account management.
+                        </p>
+                        <div class="col-lg-1"></div>
+                    </div>
+                <div class="col-lg-1"></div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
     <div class="row headerplacers">
-        <p class="row mainHeading_price">Subscription <span style="color: #5555D1;">‎ Packages</span></p>
-        <p class="row submainheading_price">We offer flexible subscription packages for eBay and Etsy account management, allowing you to choose the<br>option that best
+        <p class="col-8 mainHeading_price">Subscription <span style="color: #5555D1;">‎ Packages</span></p>
+        <p class="col-8 submainheading_price">We offer flexible subscription packages for eBay and Etsy account management, allowing you to choose the option that best
              suits your needs. Each package includes access to our 
-            advanced automation tools and<br>dedicated support. The pricing details are as follows:</p>
+            advanced automation tools and dedicated support. The pricing details are as follows:</p>
     </div>
 
     <div class="tab">
@@ -258,7 +288,8 @@
             evt.currentTarget.className += " active";
         }
     </script>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 

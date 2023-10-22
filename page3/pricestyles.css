@@ -1,4 +1,329 @@
 
+body{
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.fgimg{
+    max-height: 700px;
+    height: 100%;
+    /* width: 100%; */
+    /* margin-top: -20%; */
+    /* margin-right: 100%; */
+    position: relative;
+    top: 0px;
+    left: 0px;
+    
+}
+.fgimg2{
+    height: 120%;
+    position: absolute;
+    top: 0px;
+    left: -20px;
+}
+.imageholder{
+    justify-content: flex-end;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.headingbox{
+    position: relative;
+    top: 50px;
+    left: 0px;
+}
+
+.hb{
+    margin-top: 100px;
+}
+
+.pricing-heading {
+    font-size: 57px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+    text-align: left;
+    color: white;
+    position: sticky;
+    z-index: 1;
+}
+
+.pricing-subheading {
+    font-size: 19px;
+    margin-bottom: 30px;
+    margin: 5px;
+    text-align: left;
+    color: white;
+    position: sticky;
+    z-index: 1;
+}
+
+.specialText {
+    color: #5555D1;
+}
+
+.custBtn {
+    margin-top: 25px;
+    border-radius: 0px 9px 9px 0px;
+    padding: 9px;
+    margin-left: 0px;
+    background-color: #5555D1;
+    color: #fff;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.28);
+    width: 120px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    position: sticky;
+    z-index: 1;
+}
+
+.custFeoild {
+    margin-top: 25px;
+    border-radius: 9px 0px 0px 9px;
+    font-size: medium;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.28);
+    width: 330px;
+    height: 60px;
+}
+
+.belowSearch{
+    position: sticky;
+    z-index: 1;
+    text-align: left;
+}
+
+.pricing-section{
+    margin-top: -100px;
+}
+
+@media (max-width: 1220px) {
+    .fgimg2{
+        height: 480px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    .pricing-heading {
+        font-size: 50px;
+        font-weight: bolder;
+        margin-bottom: 25px;
+        text-align: left;
+        color: white;
+        position: sticky;
+        z-index: 1;
+    }
+
+    .pricing-subheading {
+        font-size: 16px;
+        margin-bottom: 30px;
+        margin: 5px;
+        text-align: left;
+        color: white;
+        position: sticky;
+        z-index: 1;
+    }
+
+}
+
+
+
+@media (max-width: 1025px) {
+
+    .herobackground {
+        position: relative;
+        background: url('../assets/Pheadingtop.png') center/cover no-repeat;
+        height: 600px; /* Adjust the height as needed */
+        transform: translateX(850);
+        left: 100px;
+
+    }
+
+    .fgimg2{
+        height: 400px;
+        position: absolute;
+        top: 80px;
+        left: 0px;
+    }
+
+    .pricing-heading {
+        font-size: 50px;
+        font-weight: bolder;
+        margin-bottom: 25px;
+        text-align: left;
+        color: white;
+        position: sticky;
+        z-index: 1;
+    }
+
+    .pricing-subheading {
+        font-size: 16px;
+        margin-bottom: 30px;
+        margin: 5px;
+        text-align: left;
+        color: white;
+        position: sticky;
+        z-index: 1;
+    }
+
+
+}
+
+@media (max-width: 995px) {
+
+    .pricing-section{
+        margin-top: -260px;
+    }
+
+    .hb{
+        margin-top: 280px;
+    }
+
+    .herobackground {
+        position: relative;
+        background: url('../assets/Pheadingtop.png') center/cover no-repeat;
+        height: 400px; /* Adjust the height as needed */
+        transform: translateX(950);
+        left: 100px;
+
+    }
+
+    .fgimg2{
+        height: 340px;
+        position: absolute;
+        top: 80px;
+        left: 0px;
+    }
+
+    .pricing-heading {
+        font-size: 42px;
+        font-weight: bolder;
+        margin-bottom: 25px;
+        text-align: left;
+        color: white;
+        position: sticky;
+        z-index: 1;
+    }
+
+    .pricing-subheading {
+        font-size: 14px;
+        margin-bottom: 30px;
+        margin: 5px;
+        text-align: left;
+        color: white;
+        position: sticky;
+        z-index: 1;
+    }
+
+    .custBtn {
+        margin-top: 25px;
+        border-radius: 0px 9px 9px 0px;
+        padding: 9px;
+        margin-left: 0px;
+        background-color: #5555D1;
+        color: #fff;
+        border: none;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.28);
+        width: 95px;
+        height: 60px;
+        font-size: 18px;
+        font-weight: bold;
+        position: sticky;
+        z-index: 1;
+    }
+    
+    .custFeoild {
+        margin-top: 25px;
+        border-radius: 9px 0px 0px 9px;
+        font-size: 18px;
+        border: none;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.28);
+        width: 280px;
+        height: 60px;
+    }
+    
+}
+
+@media (max-width: 767px) {
+
+    .herobackground {
+        position: relative;
+        background: url('../assets/Pheadingtop.png') center/cover no-repeat;
+        height: 400px; /* Adjust the height as needed */
+        transform: translateX(950);
+        left: 100px;
+
+    }
+
+    .fgimg2{
+        height: 300px;
+        position: absolute;
+        top: 80px;
+        left: 0px;
+        display: none;
+    }
+}
+
+@media (max-width: 410px) {
+
+    .herobackground {
+        position: relative;
+        background: url('../assets/Pheadingtop.png') center/cover no-repeat;
+        height: 400px; /* Adjust the height as needed */
+        transform: translateX(950);
+        left: 100px;
+
+    }
+
+    .fgimg2{
+        height: 340px;
+        position: absolute;
+        top: 80px;
+        left: 0px;
+        display: none;
+    }
+
+    .custBtn {
+        margin-top: 25px;
+        border-radius: 0px 9px 9px 0px;
+        padding: 9px;
+        margin-left: 0px;
+        background-color: #5555D1;
+        color: #fff;
+        border: none;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.28);
+        width: 86px;
+        height: 50px;
+        font-size: 16px;
+        font-weight: bold;
+        position: sticky;
+        z-index: 1;
+    }
+    
+    .custFeoild {
+        margin-top: 25px;
+        border-radius: 9px 0px 0px 9px;
+        font-size: 16px;
+        border: none;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.28);
+        width: 250px;
+        height: 50px;
+    }
+
+
+}
+
+
+
+
+
 /* Style for the tabs */
 /* * {
     transition: 500ms;
@@ -375,7 +700,7 @@ body {
 }
 
 .submainheading_price {
-    font-size: 140%;
+    font-size: 100%;
     font-weight: 300;
     margin-top: -14px;
     margin-bottom: 3%;

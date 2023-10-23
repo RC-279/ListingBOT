@@ -68,6 +68,16 @@ body {
 
  /* heading-section */
 
+ .feature-section {
+    background: url('../assets/Group_73.png') center/cover no-repeat;
+    height: 880px; /* Adjust the height as needed */
+    /* color: #fff; */
+}
+.feature-content {
+    text-align: center;
+    padding: 150px 0;
+}
+
  .feature-section{
     position: relative;
     top: -90px;
@@ -343,6 +353,29 @@ body {
         left: 0px;
         display: none;
     }
+
+    .feature-heading {
+        font-size: 38px;
+        font-weight: bolder;
+        margin-top: 280px;
+        margin-bottom: 25px;
+        text-align: left;
+        color: white;
+        position: sticky;
+        /* z-index: 1; */
+
+    }
+
+    .feature-subheading {
+        font-size: 12px;
+        margin-bottom: 30px;
+        margin: 5px;
+        text-align: left;
+        color: white;
+        position: sticky;
+        z-index: 1;
+    }
+
 }
 
 @media (max-width: 410px) {

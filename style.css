@@ -86,6 +86,20 @@ body{
     
 }
 
+.hero-section {
+    background: url('assets/wideherosectionbg.png') center/cover no-repeat;
+    height: 800px; /* Adjust the height as needed */
+    /* color: #fff; */
+    position: relative;
+    top: -100px;
+    left: 0px;
+
+}
+.hero-content {
+text-align: center;
+padding: 150px 0;
+}
+
 .herobackground {
     position: relative;
     /* background: url('../ListingBOT/assets/wideherosectionbg.png') center/cover no-repeat; */
@@ -124,6 +138,10 @@ body{
 }
 
 .hb{
+    margin-top: 100px;
+}
+
+.hb2{
     margin-top: 100px;
 }
 
@@ -260,22 +278,24 @@ body{
 @media (max-width: 995px) {
 
     .hero-section {
-        /* background: url('assets/wideherosectionbg.png') center/cover no-repeat; */
-        height: 800px; /* Adjust the height as needed */
-        /* color: #fff; */
         position: relative;
         top: -290px;
         left: 0px;
-    
+        
     }
 
+    
     .hb{
+        margin-top: 260px;
+    }
+
+    .hb2{
         margin-top: 260px;
     }
 
     .herobackground {
         position: relative;
-        /* /* background: url('../ListingBOT/assets/wideherosectionbg.png') center/cover no-repeat; */ */
+        /* /* background: url('../ListingBOT/assets/wideherosectionbg.png') center/cover no-repeat; */
         height: 400px; /* Adjust the height as needed */
         transform: translateX(990);
         left: 100px;
@@ -341,22 +361,19 @@ body{
 
 @media (max-width: 767px) {
 
-    .herobackground {
-        position: relative;
-        /* background: url('../ListingBOT/assets/wideherosectionbg.png') center/cover no-repeat; */
-        height: 400px; /* Adjust the height as needed */
-        transform: translateX(950);
-        left: 100px;
-
-    }
 
     .fgimg2{
-        height: 300px;
+        height: 0px;
         position: absolute;
-        top: 80px;
+        top: 0px;
         left: 0px;
         display: none;
     }
+
+    .hb2{
+        margin-top: 0px;
+    }
+
 }
 
 @media (max-width: 410px) {
@@ -519,7 +536,7 @@ body{
         padding: 10px;
         border-radius: 20px;
         border-color: white;
-        margin-top: -150px;
+        margin-top: -180px;
     }
   }
 
@@ -808,7 +825,7 @@ body{
         padding: 10px;
         border-radius: 20px;
         border-color: white;
-        margin-top: 10px;
+        margin-top: -180px;
     }
 }
 
@@ -822,7 +839,7 @@ body{
         padding: 10px;
         border-radius: 20px;
         border-color: white;
-        margin-top: 10px;
+        margin-top: -180px;
     }
 
     .bodytxt{

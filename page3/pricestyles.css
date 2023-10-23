@@ -179,12 +179,15 @@ body{
 @media (max-width: 995px) {
 
     .pricing-section{
-        margin-top: -260px;
+        margin-top: -268px;
     }
 
-    .hb{
-        margin-top: 120px;
+    .headingbox{
+        position: relative;
+        top: 250px;
+        left: 0px;
     }
+    
 
     .herobackground {
         position: relative;
@@ -251,6 +254,54 @@ body{
     
 }
 
+@media (max-width: 700px) {
+    
+    .pricing-heading {
+        font-size: 30px;
+        font-weight: bolder;
+        margin-bottom: 25px;
+        text-align: left;
+        color: white;
+        position: sticky;
+        z-index: 1;
+    }
+
+    .pricing-subheading {
+        font-size: 14px;
+        margin-bottom: 30px;
+        margin: 5px;
+        text-align: left;
+        color: white;
+        position: sticky;
+        z-index: 1;
+    }
+}
+
+@media (max-width: 450px) {
+    
+    .pricing-heading {
+        font-size: 26px;
+        font-weight: bolder;
+        margin-bottom: 25px;
+        text-align: left;
+        color: white;
+        position: sticky;
+        z-index: 1;
+    }
+
+    .pricing-subheading {
+        font-size: 12px;
+        margin-bottom: 30px;
+        margin: 5px;
+        text-align: left;
+        color: white;
+        position: sticky;
+        z-index: 1;
+    }
+}
+
+
+
 @media (max-width: 767px) {
 
     .herobackground {
@@ -268,6 +319,25 @@ body{
         top: 80px;
         left: 0px;
         display: none;
+    }
+
+    .pricing-heading {
+        font-size: 38 bolder;
+        margin-bottom: 25px;
+        text-align: left;
+        color: white;
+        position: sticky;
+        z-index: 1;
+    }
+
+    .pricing-subheading {
+        font-size: 12px;
+        margin-bottom: 30px;
+        margin: 5px;
+        text-align: left;
+        color: white;
+        position: sticky;
+        z-index: 1;
     }
 }
 
@@ -692,11 +762,13 @@ body {
     justify-content: center;
     display: flex;
     text-align: center;
+    position: relative;
+    top: -50px;
 }
 
 .mainHeading_price {
     text-align: center;
-    font-size: 400%;
+    font-size: 350%;
     font-weight: bold;
     margin: 2% 0;
 }
@@ -717,7 +789,7 @@ body {
 
 @media (max-width: 900px) {
     .mainHeading_price {
-        font-size: 400%;
+        font-size: 300%;
         margin-left: 0;
         /* Reset margin left */
     }
@@ -733,7 +805,7 @@ body {
 
 @media (max-width: 650px) {
     .mainHeading_price {
-        font-size: 350%;
+        font-size: 300%;
         margin-left: 20px;
     }
 
@@ -745,22 +817,22 @@ body {
 
 @media (max-width: 629px) {
     .mainHeading_price {
-        font-size: 220%;
+        font-size: 200%;
         margin-left: 12px;
     }
 
     .submainheading_price {
-        display: none;
+        /* display: none; */
     }
 }
 
 @media (max-width: 375px) {
     .mainHeading_price {
-        font-size: 170%;
+        font-size: 150%;
     }
 
     .submainheading_price {
-        display: none;
+        /* display: none; */
     }
 }
 

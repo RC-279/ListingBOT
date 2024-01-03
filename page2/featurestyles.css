@@ -636,10 +636,42 @@ body {
     margin-left: -2%;
     margin-top: 6%;
 }
+.fimage1 {
+    width: 45%;
+    margin-left: -2%;
+    margin-top: 6%;
+}
+.fimage2 {
+    width: 45%;
+    margin-left: -2%;
+    margin-top: -8%;
+}
+.fimage3 {
+    width: 45%;
+    margin-left: -2%;
+    margin-top: -8%;
+}
+.fimage4 {
+    width: 45%;
+    margin-left: -2%;
+    margin-top: -6%;
+}
 
 .fimagel {
     width: 50%;
     margin-top: 5%;
+}
+.fimagel1 {
+    width: 50%;
+    margin-top: -5%;
+}
+.fimagel2 {
+    width: 50%;
+    margin-top: -5%;
+}
+.fimagel3 {
+    width: 50%;
+    margin-top: 3%;
 }
 
 .mainHeading {
